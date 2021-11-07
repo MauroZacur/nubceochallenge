@@ -1,13 +1,130 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body {
+  min-height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  
+  background-image: url("../src/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: 250vh 100vh;
+  
+}
+
+.login-container {
+  text-align: center;
+  width: 320px;
+  height: 400px;
+  background:black;
+  color: white;
+  margin: 100px auto;
+  border-radius: 10px;
+
+}
+
+.login-form {
+  margin: 30px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-container input {
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+.login-form h2 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.login-form input {
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  padding: 10px;
+  outline: none;
+  color:white;
+}
+
+.login-btn {
+  color: white;
+  background: red!important;
+  border: none!important;
+  border-radius: 10px;
+  font-family: sans-serif;
+ 
+}
+
+.error {
+  color: red;
+  padding: 10px;
+}
+
+.bands-grid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.bands-container {
+  text-align: center;
+  width:320px;
+  height: 390px;
+  background:black;
+  color: white;
+  margin: 100px auto;
+  border-radius: 10px;
+ 
+
+
+}
+
+.bands-container ul {
+  font-size: 22px;
+  padding: 0px;
+  
+}
+
+.bands-container ul li {
+  
+  list-style: none;
+}
+
+
+
+.btn-logout {
+  color: white;
+  background: rgb(15, 15, 15)!important;
+  border: none!important;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+.btn-logout:hover{
+  cursor:pointer;
+  background:red !important;
+  color:black;
+  
+}
+
+nav {
+  
+  display: flex;
+  flex-direction: row-reverse;
+}
+.bands-info{
+  font-size: 14px!important;
+}
+
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  
+}
+
+span:hover{
+  cursor: pointer;
+  color: crimson;
 }
