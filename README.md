@@ -3,7 +3,13 @@ Here is a working build on Netlify: nubceochallenge-maurozacur.netlify.app
 You can use the netlify's link or use npm start in the project folder to run the app
 
 Username: admin
+
 Password: admin
+
+
+
+
+
 
 
 
